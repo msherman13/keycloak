@@ -50,7 +50,7 @@ https-trust-store-password={{ keycloak_quarkus_https_trust_store_password }}
 
 # Client URL configuration
 {% if keycloak_quarkus_frontend_url %}
-hostname-url={{ keycloak_quarkus_frontend_url }}
+#hostname-url={{ keycloak_quarkus_frontend_url }}
 {% else %}
 hostname={{ keycloak_quarkus_host }}
 hostname-port={{ keycloak_quarkus_port }}
